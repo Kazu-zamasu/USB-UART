@@ -1,0 +1,24 @@
+Ref;Number;PartNumber;Price¥(Digikey);URL
+C1;0.1uF;muRata GRM1857U1A103JA44D;19;http://www.digikey.jp/product-detail/ja/GRM1857U1A103JA44D/490-8269-1-ND/4380563
+C2;10uF;muRata GRM188D71A106MA73D;54;http://www.digikey.jp/product-detail/ja/GRM188D71A106MA73D/490-7200-1-ND/3900426
+C3;0.1uF;muRata GRM1857U1A103JA44D;19;http://www.digikey.jp/product-detail/ja/GRM1857U1A103JA44D/490-8269-1-ND/4380563
+C4;10uF;muRata GRM188D71A106MA73D;54;http://www.digikey.jp/product-detail/ja/GRM188D71A106MA73D/490-7200-1-ND/3900426
+C5;0.1uF;muRata GRM1857U1A103JA44D;19;http://www.digikey.jp/product-detail/ja/GRM1857U1A103JA44D/490-8269-1-ND/4380563
+C6;10uF;muRata GRM188D71A106MA73D;54;http://www.digikey.jp/product-detail/ja/GRM188D71A106MA73D/490-7200-1-ND/3900426
+CON1;USB-MICRO-B;Hirose-microUSB-ZX62R-B-5P;193;http://www.digikey.jp/product-detail/ja/ZX62R-B-5P/H11574CT-ND/1787106
+D1;ZLLS410TA;Diodes Incorporated  ZLLS410TA;66;http://www.digikey.jp/product-detail/ja/ZLLS410TA/ZLLS410CT-ND/1767188
+D2;UPS115UE3/TR7;Microsemi Commercial Components Group UPS115UE3/TR7;165;http://www.digikey.jp/product-search/ja?KeyWords=UPS115UE3%2FTR7&WT.z_header=search_go
+F1;150mA/1.5s;TE MICROSMD005F-2;50;http://www.digikey.jp/product-detail/ja/MICROSMD005F-2/MICROSMD005FCT-ND/1045863
+P1;CONN_01X03;Pin_Headers:Pin_Header_Straight_1x03;60;none
+P2;CONN_01X06;Pin_Headers:Pin_Header_Angle_1x06;60;none
+R1;103;Vishay Dale CRCW060310K0FKEAHP;29.1;http://www.digikey.jp/product-detail/ja/CRCW060310K0FKEAHP/541-10.0KSCT-ND/2222780
+R2;30R93;Vishay Dale CRCW060330K9FKEAHP;29.1;http://www.digikey.jp/product-detail/ja/CRCW060330K9FKEAHP/541-30.9KSCT-ND/2222786
+R5;103;Vishay Dale CRCW060310K0FKEAHP;29.1;http://www.digikey.jp/product-detail/ja/CRCW060310K0FKEAHP/541-10.0KSCT-ND/2222780
+R6;16R93;Vishay Dale CRCW060316K9FKEAHP;23.67;http://www.digikey.jp/product-detail/ja/CRCW060316K9FKEAHP/CRCW060316K9FKEAHP-ND/2226309
+U1;FT232RL;FTDI, Future Technology Devices International Ltd FT232RL-REEL;607;http://www.digikey.jp/product-detail/ja/FT232RL-REEL/768-1007-1-ND/1836402
+U2;ADuM5010-DC/DC-150mW-SSOP20-Isolator;Analog Devices Inc ADUM5010ARSZ-RL7;571;http://www.digikey.jp/product-detail/ja/ADUM5010ARSZ-RL7/ADUM5010ARSZ-RL7CT-ND/3821204
+U3;ADuM3211;Analog Devices Inc ADUM3211ARZ;374;http://www.digikey.jp/product-detail/ja/ADUM3211ARZ/ADUM3211ARZ-ND/2237740
+U4;ADuM5010-DC/DC-150mW-SSOP20-Isolator;Analog Devices Inc ADUM5010ARSZ-RL7;571;http://www.digikey.jp/product-detail/ja/ADUM5010ARSZ-RL7/ADUM5010ARSZ-RL7CT-ND/3821204
+U5;ADuM3211;Analog Devices Inc ADUM3211ARZ;374;http://www.digikey.jp/product-detail/ja/ADUM3211ARZ/ADUM3211ARZ-ND/2237740
+;;;;
+;;Total;3420.97;

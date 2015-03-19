@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-17 BZR 5524)-product   date = 2015年03月19日木曜日 13:25:04
+
+BeginCmp
+TimeStamp = /54E97E9F;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SMD-0603_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E97ECE;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0603_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9AEBE;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SMD-0603_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9C620;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0603_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9BAD0;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SMD-0603_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9C82B;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SMD-0603_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E97C37;
+Reference = CON1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = kicad-library:Hirose-microUSB-ZX62R-B-5P;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A2724;
+Reference = D1;
+ValeurCmp = ZLLS410TA;
+IdModule  = Diode:ZLLS410;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A2117;
+Reference = D2;
+ValeurCmp = UPS115UE3/TR7;
+IdModule  = Diode:UPS115UE3_TR7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508A96D;
+Reference = F1;
+ValeurCmp = 150mA/1.5s;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC3F44;
+Reference = P1;
+ValeurCmp = CONN_01X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A2CA8;
+Reference = P2;
+ValeurCmp = CONN_01X06;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A5098;
+Reference = P3;
+ValeurCmp = CONN_01X01;
+IdModule  = BoardCheckPin:EarthPad;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9AE91;
+Reference = R1;
+ValeurCmp = 103;
+IdModule  = SMD_Packages:SMD-0603_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9AE97;
+Reference = R2;
+ValeurCmp = 30R93;
+IdModule  = SMD_Packages:SMD-0603_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9A4EF;
+Reference = R5;
+ValeurCmp = 103;
+IdModule  = SMD_Packages:SMD-0603_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9A534;
+Reference = R6;
+ValeurCmp = 16R93;
+IdModule  = SMD_Packages:SMD-0603_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E9A8C9;
+Reference = U1;
+ValeurCmp = ADuM5010-DC/DC-150mW-SSOP20-Isolator;
+IdModule  = Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E97BE6;
+Reference = U2;
+ValeurCmp = FT232RL;
+IdModule  = Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A39BF;
+Reference = U3;
+ValeurCmp = ADuM3211;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E99DAF;
+Reference = U4;
+ValeurCmp = ADuM5010-DC/DC-150mW-SSOP20-Isolator;
+IdModule  = Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A1EE8;
+Reference = U5;
+ValeurCmp = ADuM3211;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+EndListe
