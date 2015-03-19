@@ -166,7 +166,7 @@ L ADuM5010-DC/DC-150mW-SSOP20-Isolator U4
 U 1 1 54E99DAF
 P 5550 1525
 F 0 "U4" H 5550 1925 60  0000 C CNN
-F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 5550 2050 60  0000 C CNN
+F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 5900 325 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 5425 975 60  0001 C CNN
 F 3 "" H 5425 975 60  0000 C CNN
 	1    5550 1525
@@ -250,11 +250,11 @@ F 3 "" H 6175 2140 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ADuM5010-DC/DC-150mW-SSOP20-Isolator U1
+L ADuM5010-DC/DC-150mW-SSOP20-Isolator U2
 U 1 1 54E9A8C9
 P 2075 1525
-F 0 "U1" H 2075 1925 60  0000 C CNN
-F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 2075 2050 60  0000 C CNN
+F 0 "U2" H 2075 1925 60  0000 C CNN
+F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 2100 175 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 1950 975 60  0001 C CNN
 F 3 "" H 1950 975 60  0000 C CNN
 	1    2075 1525
@@ -448,10 +448,10 @@ F 3 "" H 8525 4935 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232RL U2
+L FT232RL U1
 U 1 1 54E97BE6
 P 5775 4450
-F 0 "U2" H 5125 5350 50  0000 L CNN
+F 0 "U1" H 5125 5350 50  0000 L CNN
 F 1 "FT232RL" H 6175 5350 50  0000 L CNN
 F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 5775 4350 60  0001 C CNN
 F 3 "" H 5775 4350 60  0000 C CNN
@@ -629,10 +629,6 @@ Wire Wire Line
 Wire Wire Line
 	4575 5450 4575 5650
 Connection ~ 4975 5450
-Wire Wire Line
-	6575 3750 7525 3750
-Wire Wire Line
-	7525 3850 6575 3850
 Wire Wire Line
 	7100 3950 7525 3950
 Wire Wire Line
@@ -843,10 +839,28 @@ Wire Wire Line
 	8250 2700 8250 4375
 Connection ~ 8250 3450
 Connection ~ 8250 3650
-Text Notes 9700 6175 0    60   ~ 0
+Text Notes 7400 5700 0    60   ~ 0
 VDD isorate specification.\n5V use single isorate.\n3.3V use double isorate.
 Text Notes 1850 2775 0    60   ~ 0
 C1 to C6 Voltage Specification 10V.\nX7T
 Text Notes 2675 1350 0    60   ~ 0
-R1 to R4 Specification 1/4W \nEx Vender: Vishay Dale CRCW-HP serise.
+R1 to R4 Specification 1/4W \nEx Vender: Vishay Dale CRCW-HP serise.\nPreferred number E94
+Text Notes 9200 4900 0    60   ~ 0
+Reverse connecting target protection.\nNOTICE: Poly Switch operation time is 1.5s.
+Wire Wire Line
+	6575 3850 7325 3850
+Wire Wire Line
+	7325 3850 7325 3750
+Wire Wire Line
+	7325 3750 7525 3750
+Wire Wire Line
+	6575 3750 7175 3750
+Wire Wire Line
+	7175 3750 7175 3900
+Wire Wire Line
+	7175 3900 7475 3900
+Wire Wire Line
+	7475 3900 7475 3850
+Wire Wire Line
+	7475 3850 7525 3850
 $EndSCHEMATC

@@ -166,7 +166,7 @@ L ADuM5010-DC/DC-150mW-SSOP20-Isolator U4
 U 1 1 54E99DAF
 P 5550 1525
 F 0 "U4" H 5550 1925 60  0000 C CNN
-F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 5550 2050 60  0000 C CNN
+F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 5900 325 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 5425 975 60  0001 C CNN
 F 3 "" H 5425 975 60  0000 C CNN
 	1    5550 1525
@@ -254,7 +254,7 @@ L ADuM5010-DC/DC-150mW-SSOP20-Isolator U2
 U 1 1 54E9A8C9
 P 2075 1525
 F 0 "U2" H 2075 1925 60  0000 C CNN
-F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 2075 2050 60  0000 C CNN
+F 1 "ADuM5010-DC/DC-150mW-SSOP20-Isolator" H 2100 175 60  0000 C CNN
 F 2 "Housings_SSOP:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 1950 975 60  0001 C CNN
 F 3 "" H 1950 975 60  0000 C CNN
 	1    2075 1525
@@ -630,10 +630,6 @@ Wire Wire Line
 	4575 5450 4575 5650
 Connection ~ 4975 5450
 Wire Wire Line
-	6575 3750 7525 3750
-Wire Wire Line
-	7525 3850 6575 3850
-Wire Wire Line
 	7100 3950 7525 3950
 Wire Wire Line
 	4450 1525 5100 1525
@@ -851,4 +847,20 @@ Text Notes 2675 1350 0    60   ~ 0
 R1 to R4 Specification 1/4W \nEx Vender: Vishay Dale CRCW-HP serise.\nPreferred number E94
 Text Notes 9200 4900 0    60   ~ 0
 Reverse connecting target protection.\nNOTICE: Poly Switch operation time is 1.5s.
+Wire Wire Line
+	6575 3850 7325 3850
+Wire Wire Line
+	7325 3850 7325 3750
+Wire Wire Line
+	7325 3750 7525 3750
+Wire Wire Line
+	6575 3750 7175 3750
+Wire Wire Line
+	7175 3750 7175 3900
+Wire Wire Line
+	7175 3900 7475 3900
+Wire Wire Line
+	7475 3900 7475 3850
+Wire Wire Line
+	7475 3850 7525 3850
 $EndSCHEMATC
